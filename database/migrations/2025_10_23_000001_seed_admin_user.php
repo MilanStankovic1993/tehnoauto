@@ -20,9 +20,10 @@ return new class extends Migration
 
             if (! $user) {
                 $userId = DB::table('users')->insertGetId([
-                    'name'       => $name,
-                    'email'      => $email,
-                    'password'   => Hash::make($pass),
+                    'name' => $name,
+                    'email' => $email,
+                    'password' => Hash::make($pass),
+                    'email_verified_at' => now(),
                     'created_at' => now(),
                     'updated_at' => now(),
                 ]);
