@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tehnoauto - Uskoro se pokreće</title>
+    <title>Tehnoauto DOO - Uskoro se pokreće</title>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
